@@ -15,10 +15,10 @@ The status of the buttons can be read from the Remote IO unit's MODBUS registers
 modpoll -t 1 -c 8 192.168.1.196
 
 Where;    modpoll is a freeware MODBUS master simulator, available here - https://www.modbusdriver.com/modpoll.html
-          -t 1  refers to the MODBUS Function Code, in this case FC2. Alternatives are documented. /n
-          -c 8  refers to the number of coils (or registers) to read. Default is 1 /n
+          -t 1  refers to the MODBUS Function Code, in this case FC2. Alternatives are documented.
+          -c 8  refers to the number of coils (or registers) to read. Default is 1
           192.168.1.196 is the IP-Address, the unit is currently DHCP-enabled. This information has the additional /n 
               effect of indicating a normal MODBUS/TCP connection - i.e. port 502 - although alterations to the /n 
-              norm can be specified. /n
+              norm can be specified.
 
 Currently, the connector is directly through polling the MODBUS registers.
