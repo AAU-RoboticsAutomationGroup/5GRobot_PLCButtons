@@ -12,7 +12,7 @@ RemoteIO>Slot4 >> https://www.beckhoff.com/da-dk/products/i-o/bus-terminals/kl9x
 
 The status of the buttons can be read from the Remote IO unit's MODBUS registers with the folowing command:
 
-modpoll -t 1 -c 8 192.168.1.196
+modpoll -t 1 -c 8 192.168.1.197
 
 Where;    modpoll is a freeware MODBUS master simulator, available here - https://www.modbusdriver.com/modpoll.html
           -t 1  refers to the MODBUS Function Code, in this case FC2. Alternatives are documented.
